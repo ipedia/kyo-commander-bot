@@ -3,7 +3,7 @@ lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
       organization := "com.kyocommander",
-      scalaVersion := "2.12.3",
+      scalaVersion := "2.11.8",
       version      := "0.1.0-SNAPSHOT"
     )),
     resolvers += Resolver.sonatypeRepo("releases"),
